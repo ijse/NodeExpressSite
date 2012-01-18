@@ -1,0 +1,192 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/usr/bin/npm',
+verbose cli   'install',
+verbose cli   'mongodb',
+verbose cli   '-g',
+verbose cli   '--mongodb:native' ]
+info using npm@1.1.0-beta-10
+info using node@v0.6.2
+verbose /usr/bin/node node symlink
+verbose config file /home/ijse/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/lib/node_modules/npm/npmrc
+verbose into /usr/lib [ 'mongodb' ]
+verbose cache add mongodb
+verbose cache add [ 'mongodb', null ]
+silly cache add: name, spec, args [ undefined, 'mongodb', [ 'mongodb', null ] ]
+verbose parsed url { pathname: 'mongodb', path: 'mongodb', href: 'mongodb' }
+verbose addNamed [ 'mongodb', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'mongodb', '', false ]
+verbose raw, before any munging mongodb
+verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+verbose url resolved https://registry.npmjs.org/mongodb
+verbose etag "6AMQVF7XFEYQX9D0Q57Q24OM0"
+http GET https://registry.npmjs.org/mongodb
+http 304 https://registry.npmjs.org/mongodb
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"6AMQVF7XFEYQX9D0Q57Q24OM0"',
+silly get cb     date: 'Tue, 17 Jan 2012 08:50:55 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mongodb from cache
+silly name, range, hasData 2 [ 'mongodb', '', true ]
+silly versions [ 'mongodb',
+silly versions   [ '0.9.4',
+silly versions     '0.9.4-4',
+silly versions     '0.9.3',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.6-7',
+silly versions     '0.9.6-8',
+silly versions     '0.9.6-9',
+silly versions     '0.9.6-10',
+silly versions     '0.9.6-11',
+silly versions     '0.9.6-12',
+silly versions     '0.9.6-13',
+silly versions     '0.9.6-14',
+silly versions     '0.9.6-15',
+silly versions     '0.9.6-16',
+silly versions     '0.9.6-17',
+silly versions     '0.9.6-18',
+silly versions     '0.9.6-19',
+silly versions     '0.9.6-20',
+silly versions     '0.9.6-21',
+silly versions     '0.9.6-22',
+silly versions     '0.9.6-23',
+silly versions     '0.9.7',
+silly versions     '0.9.7-0',
+silly versions     '0.9.7-1',
+silly versions     '0.9.7-1.1',
+silly versions     '0.9.7-1.2',
+silly versions     '0.9.7-1.3',
+silly versions     '0.9.7-1.4',
+silly versions     '0.9.7-2',
+silly versions     '0.9.7-2-1',
+silly versions     '0.9.7-2-2',
+silly versions     '0.9.7-2-3',
+silly versions     '0.9.7-2-4',
+silly versions     '0.9.7-2-5',
+silly versions     '0.9.7-3',
+silly versions     '0.9.7-3-1',
+silly versions     '0.9.7-3-2',
+silly versions     '0.9.7-3-3',
+silly versions     '0.9.7-3-4',
+silly versions     '0.9.7-3-5' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8o-v83.6.6.8-linux-ia32-2.6.38-13-generic',
+verbose bin dist   { shasum: 'c474e9d8ac9d78985094f255d2b050f86510e41b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-0.9.7-3-5.tgz' } ]
+verbose caching /home/ijse/.npm/mongodb/0.9.7-3-5/package/package.json
+verbose loadDefaults mongodb@0.9.7-3-5
+silly resolved [ { name: 'mongodb',
+silly resolved     description: 'A node.js driver for MongoDB',
+silly resolved     keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+silly resolved     version: '0.9.7-3-5',
+silly resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Aaron Heckmann' },
+silly resolved        { name: 'Christoph Pojer' },
+silly resolved        { name: 'Pau Ramon Revilla' },
+silly resolved        { name: 'Nathan White' },
+silly resolved        { name: 'Emmerman' },
+silly resolved        { name: 'Seth LaForge' },
+silly resolved        { name: 'Boris Filipov' },
+silly resolved        { name: 'Stefan Schärmeli' },
+silly resolved        { name: 'Tedde Lundgren' },
+silly resolved        { name: 'renctan' },
+silly resolved        { name: 'Sergey Ukustov' },
+silly resolved        { name: 'Ciaran Jessup' },
+silly resolved        { name: 'kuno' },
+silly resolved        { name: 'srimonti' },
+silly resolved        { name: 'Erik Abele' },
+silly resolved        { name: 'Pratik Daga' },
+silly resolved        { name: 'Slobodan Utvic' },
+silly resolved        { name: 'Kristina Chodorow' },
+silly resolved        { name: 'Yonathan Randolph' },
+silly resolved        { name: 'Brian Noguchi' },
+silly resolved        { name: 'Sam Epstein' },
+silly resolved        { name: 'James Harrison Fisher' },
+silly resolved        { name: 'Vladimir Dronnikov' },
+silly resolved        { name: 'Ben Hockey' },
+silly resolved        { name: 'Henrik Johansson' },
+silly resolved        { name: 'Simon Weare' },
+silly resolved        { name: 'Alex Gorbatchev' },
+silly resolved        { name: 'Shimon Doodkin' },
+silly resolved        { name: 'Kyle Mueller' },
+silly resolved        { name: 'Eran Hammer-Lahav' },
+silly resolved        { name: 'Marcin Ciszak' },
+silly resolved        { name: 'François de Metz' },
+silly resolved        { name: 'Vinay Pulim' },
+silly resolved        { name: 'nstielau' },
+silly resolved        { name: 'Adam Wiggins' },
+silly resolved        { name: 'entrinzikyl' },
+silly resolved        { name: 'Jeremy Selier' },
+silly resolved        { name: 'Ian Millington' },
+silly resolved        { name: 'Public Keating' },
+silly resolved        { name: 'andrewjstone' },
+silly resolved        { name: 'Christopher Stott' },
+silly resolved        { name: 'Corey Jewett' },
+silly resolved        { name: 'brettkiefer' },
+silly resolved        { name: 'Rob Holland' },
+silly resolved        { name: 'Senmiao Liu' },
+silly resolved        { name: 'heroic' },
+silly resolved        { name: 'gitfy' },
+silly resolved        { name: 'Andrew Stone' },
+silly resolved        { name: 'John Le Drew' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'node-mongodb-native@googlegroups.com',
+silly resolved        url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly resolved     os: [ 'linux', 'darwin', 'freebsd' ],
+silly resolved     config: { native: false },
+silly resolved     main: './lib/mongodb/index',
+silly resolved     directories: { lib: './lib/mongodb' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     scripts: { install: 'node install.js' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'Apache License, Version 2.0',
+silly resolved          url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly resolved     _id: 'mongodb@0.9.7-3-5',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.2',
+silly resolved     _defaultsLoaded: true } ]
+info into /usr/lib mongodb@0.9.7-3-5
+info installOne mongodb@0.9.7-3-5
+info unbuild /usr/lib/node_modules/mongodb
+verbose caching /usr/lib/node_modules/mongodb/package.json
+verbose loadDefaults mongodb@0.9.7-3-5
+info preuninstall mongodb@0.9.7-3-5
+info uninstall mongodb@0.9.7-3-5
+verbose unbuild mongodb@0.9.7-3-5 [ true, '/usr/lib/node_modules', '/usr/lib/node_modules' ]
+info postuninstall mongodb@0.9.7-3-5
+ERR! error installing mongodb@0.9.7-3-5
+info unbuild /usr/lib/node_modules/mongodb
+verbose caching /usr/lib/node_modules/mongodb/package.json
+verbose loadDefaults mongodb@0.9.7-3-5
+info preuninstall mongodb@0.9.7-3-5
+info uninstall mongodb@0.9.7-3-5
+verbose unbuild mongodb@0.9.7-3-5 [ true, '/usr/lib/node_modules', '/usr/lib/node_modules' ]
+info postuninstall mongodb@0.9.7-3-5
+ERR! error rolling back mongodb@0.9.7-3-5 Error: EACCES, permission denied '/usr/lib/node_modules/mongodb/TODO'
+verbose installOne cb mongodb@0.9.7-3-5
+ERR! Error: EACCES, permission denied '/usr/lib/node_modules/mongodb/install.js'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 2.6.38-13-generic
+ERR! command "node" "/usr/bin/npm" "install" "mongodb" "-g" "--mongodb:native"
+ERR! cwd /home/ijse/nodejs/site3
+ERR! node -v v0.6.2
+ERR! npm -v 1.1.0-beta-10
+ERR! path /usr/lib/node_modules/mongodb/install.js
+ERR! code EACCES
+ERR! message EACCES, permission denied '/usr/lib/node_modules/mongodb/install.js'
+verbose exit [ 1, true ]
